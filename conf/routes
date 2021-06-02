@@ -1,0 +1,12 @@
+#No filter
+POST    /login                                                auth.LoginController.login()
+
+#Filter on /auth
+POST    /auth/logout                                          auth.LoginController.logout()
+
+GET     /auth/me                                              auth.LoginController.getCurrentUser()
+
+GET     /auth/:group/myposts/:postId                          posts.PostController.getPost(group:String, postId: Int)
+DELETE  /auth/:group/myposts/:postId                          posts.PostController.deletePost(group:String, postId: Int)
+
+POST    /auth/user/create                                     users.UserController.create()
