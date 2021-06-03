@@ -1,4 +1,4 @@
-# Playframework JWT Secure API
+# Playframework 2.8 JWT Secure API
 
 Please be kind as this project is just a test that I put at your disposal to help you.
 It's not perfect, because of the time, but you can use pieces of code or improve it.
